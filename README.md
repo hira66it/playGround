@@ -21,7 +21,11 @@ git config --global credential.helper cache
     ![A representation of Octdrey Catburn](http://octodex.github.com/images/octdrey-catburn.jpg)
 4. Git 에서 **Hypertext** 넣기
     [A representation of Octdrey Catburn](http://octodex.github.com/)
+5. 계정이 바꼈을 때
+[Link](http://recoveryman.tistory.com/392)
 ***
+라인 넣기
+
 * list 1
 * list 2
 > 블럭 생성하기
