@@ -12,11 +12,13 @@ git config --global credential.helper cache
 2. Git 에서 **유저네임** 설정하는 방법
 >
 >>git config --global user.name "이름"
+>
 >>git config --global user.email "이메일"
 >
 >프로젝트 하나에서만 변경하고 싶으시면
 >
 >>git config --local user.name "이름"
+>
 >>git config --local user.email "이메일"
 >
 
@@ -25,14 +27,13 @@ git config --global credential.helper cache
 4. Git 에서 **Hypertext** 넣기
     [A representation of Octdrey Catburn](http://octodex.github.com/)
 5. 계정이 바꼈을 때
-[Link](http://recoveryman.tistory.com/392)
+[블로그 Link](http://recoveryman.tistory.com/392)
 6. git status가 꼬였을 때
   * git status
   * gcam "commit 내용"
 error: Pulling is not possible because you have unmerged files.
 ***
-=======
-###라인 넣기
+### 라인 넣기
 
 * list 1
     - 리스트 2
