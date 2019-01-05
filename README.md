@@ -4,16 +4,33 @@ Lots of things to play
 ## git tutorial for kr
 https://backlog.com/git-tutorial/kr/stepup/stepup1_4.html
 
-git _hub_ **fuccckking**
-    
-    1. Git 에서 **password** 저장하는 방법
-        git config --global credential.helper cache 
-    2. Git 에서 **이미지** 넣기
-        ![A representation of Octdrey Catburn](http://octodex.github.com/images/octdrey-catburn.jpg)
-    3. Git 에서 **Hypertext** 넣기
-        [A representation of Octdrey Catburn](http://octodex.github.com/)
+git _hub_ **Hi there**
+
+## 깃 간단 설명서
+1. Git 에서 **password** 저장하는 방법
+git config --global credential.helper cache 
+2. Git 에서 **유저네임** 설정하는 방법
+>>git config --global user.name "이름"
+>>git config --global user.email "이메일"
+>
+>프로젝트 하나에서만 변경하고 싶으시면
+>
+>>git config --local user.name "이름"
+>git config --local user.email "이메일"
+
+3. Git 에서 **이미지** 넣기
+    <img src="http://octodex.github.com/images/octdrey-catburn.jpg" width="400">
+4. Git 에서 **Hypertext** 넣기
+    [A representation of Octdrey Catburn](http://octodex.github.com/)
+5. 계정이 바꼈을 때
+[Link](http://recoveryman.tistory.com/392)
 ***
+<<<<<<< HEAD
 - 라인 만들기
+=======
+라인 넣기
+
+>>>>>>> 68c912581ae90d5302c16167deb94a69f09c1d3a
 * list 1
     - 리스트 2
     - 리스트 3
@@ -22,7 +39,16 @@ git _hub_ **fuccckking**
     * 리스트 2
 
 > 블럭 생성하기
+<<<<<<< HEAD
 <pre><code>
     int a = 50
     print("hi")
 </code></pre>
+=======
+```python
+    a = 50
+    b = 100
+    abs(1-b)
+    print("hi")
+```
+>>>>>>> 68c912581ae90d5302c16167deb94a69f09c1d3a
