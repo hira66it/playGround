@@ -13,9 +13,16 @@ git _hub_ **fuccckking**
     3. Git 에서 **Hypertext** 넣기
         [A representation of Octdrey Catburn](http://octodex.github.com/)
 ***
+- 라인 만들기
 * list 1
+    - 리스트 2
+    - 리스트 3
 * list 2
+    * 리스트 1
+    * 리스트 2
+
 > 블럭 생성하기
-<pre><code></code></pre>
+<pre><code>
     int a = 50
     print("hi")
+</code></pre>
