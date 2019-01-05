@@ -18,7 +18,7 @@ git config --global credential.helper cache
 >git config --local user.name "이름"
 >git config --local user.email "이메일"
 3. Git 에서 **이미지** 넣기
-    ![A representation of Octdrey Catburn](http://octodex.github.com/images/octdrey-catburn.jpg)
+    ![A representation of Octdrey Catburn](http://octodex.github.com/images/octdrey-catburn.jpg =770x)
 4. Git 에서 **Hypertext** 넣기
     [A representation of Octdrey Catburn](http://octodex.github.com/)
 5. 계정이 바꼈을 때
