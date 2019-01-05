@@ -12,7 +12,7 @@ git config --global credential.helper cache
 2. Git 에서 **유저네임** 설정하는 방법
 >
 >>git config --global user.name "이름"
->
+
 >>git config --global user.email "이메일"
 >
 >프로젝트 하나에서만 변경하고 싶으시면
