@@ -10,27 +10,30 @@ git _hub_ **Hi there**
 1. Git 에서 **password** 저장하는 방법
 git config --global credential.helper cache 
 2. Git 에서 **유저네임** 설정하는 방법
+>
 >>git config --global user.name "이름"
 >>git config --global user.email "이메일"
 >
 >프로젝트 하나에서만 변경하고 싶으시면
 >
 >>git config --local user.name "이름"
->git config --local user.email "이메일"
+>>git config --local user.email "이메일"
+>
 
 3. Git 에서 **이미지** 넣기
-    <img src="http://octodex.github.com/images/octdrey-catburn.jpg" width="400">
+    <img src="http://octodex.github.com/images/octdrey-catburn.jpg" width="300">
 4. Git 에서 **Hypertext** 넣기
     [A representation of Octdrey Catburn](http://octodex.github.com/)
 5. 계정이 바꼈을 때
 [Link](http://recoveryman.tistory.com/392)
+6. git status가 꼬였을 때
+  * git status
+  * gcam "commit 내용"
+error: Pulling is not possible because you have unmerged files.
 ***
-<<<<<<< HEAD
-- 라인 만들기
 =======
-라인 넣기
+###라인 넣기
 
->>>>>>> 68c912581ae90d5302c16167deb94a69f09c1d3a
 * list 1
     - 리스트 2
     - 리스트 3
@@ -38,17 +41,10 @@ git config --global credential.helper cache
     * 리스트 1
     * 리스트 2
 
-> 블럭 생성하기
-<<<<<<< HEAD
-<pre><code>
-    int a = 50
-    print("hi")
-</code></pre>
-=======
+> 코드블럭 생성하기
 ```python
     a = 50
     b = 100
     abs(1-b)
     print("hi")
 ```
->>>>>>> 68c912581ae90d5302c16167deb94a69f09c1d3a
