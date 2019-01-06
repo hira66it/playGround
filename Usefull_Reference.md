@@ -5,3 +5,7 @@
 # tensorflow Image detection
 [tensor](http://solarisailab.com/archives/2387)
 >It is about ssd and object detection
+
+# tensorflow Tutorial
+[tensorflow-kr](https://tensorflowkorea.gitbooks.io/tensorflow-kr/)
+>tensorflow tutorial in Korean
