@@ -29,13 +29,13 @@ git config --global credential.helper cache
 6. git status가 꼬였을 때
   * git status
   * gcam "commit 내용"
-error: Pulling is not possible because you have unmerged files.
+  - error: Pulling is not possible because you have unmerged files.
 7. git ignore 파일 추가하기
-```git
-git add .
-git commit -m "add ignore file config"
+```bash
+    git add .
+    git commit -m "add ignore file config"
 ```
-[git ignore](http://rapapa.net/?p=85)
+        [git ignore](http://rapapa.net/?p=85)
 ***
 ### 라인 넣기
 
@@ -53,3 +53,20 @@ git commit -m "add ignore file config"
     abs(1-b)
     print("hi")
 ```
+
+### 깃 기본 커밋 사용법
+>1. repo 생성
+>2. git clone https~~~
+>3. 작업
+>4. add
+>5. commit
+>6. push
+
+### 깃 기본 커밋 사용법2
+1. vi README.md
+2. git add --all [gaa]
+3. git commit -am "Instructoction" [gcam]
+4. git push (-f) [gp]
+5. git pull [gl]
+6. git clone [gcl]
+7. git rm -r —cached .
