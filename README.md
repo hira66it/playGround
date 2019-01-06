@@ -7,7 +7,7 @@ https://backlog.com/git-tutorial/kr/stepup/stepup1_4.html
 git _hub_ **Hi there**
 
 ## 깃 간단 설명서
-1. Git 에서 **password** 저장하는 방법
+1. Git 에서 **password** 저장하는 방법  
 git config --global credential.helper cache 
 2. Git 에서 **유저네임** 설정하는 방법
 >
@@ -20,22 +20,22 @@ git config --global credential.helper cache
 >>git config --local user.email "이메일"
 >
 
-3. Git 에서 **이미지** 넣기
+3. Git 에서 **이미지** 넣기  
     <img src="http://octodex.github.com/images/octdrey-catburn.jpg" width="300">
-4. Git 에서 **Hypertext** 넣기
+4. Git 에서 **Hypertext** 넣기  
     [A representation of Octdrey Catburn](http://octodex.github.com/)
-5. 계정이 바꼈을 때
+5. 계정이 바꼈을 때  
 [블로그 Link](http://recoveryman.tistory.com/392)
-6. git status가 꼬였을 때
-  * git status
-  * gcam "commit 내용"
-  - error: Pulling is not possible because you have unmerged files.
-7. git ignore 파일 추가하기
+6. git status가 꼬였을 때  
+    * git status
+    * gcam "commit 내용"
+    - **error**: Pulling is not possible because you have unmerged files.
+7. git ignore 파일 추가하기  
 ```bash
     git add .
     git commit -m "add ignore file config"
 ```
-        [git ignore](http://rapapa.net/?p=85)
+  [git ignore](http://rapapa.net/?p=85)
 ***
 ### 라인 넣기
 
@@ -54,19 +54,19 @@ git config --global credential.helper cache
     print("hi")
 ```
 
-### 깃 기본 커밋 사용법
+### 깃 **기본 커밋** 사용법
 >1. repo 생성
->2. git clone https~~~
+>2. git clone **https~~~**
 >3. 작업
 >4. add
 >5. commit
 >6. push
 
-### 깃 기본 커밋 사용법2
-1. vi README.md
-2. git add --all [gaa]
-3. git commit -am "Instructoction" [gcam]
-4. git push (-f) [gp]
-5. git pull [gl]
-6. git clone [gcl]
-7. git rm -r —cached .
+### 깃 **기본 커밋** 사용법2
+>1. vi README.md
+>2. git add --all [gaa]
+>3. git commit -am "Instructoction" [gcam]
+>4. git push (-f) [gp]
+>5. git pull [gl]
+>6. git clone [gcl]
+>7. git rm -r —cached .
