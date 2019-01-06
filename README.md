@@ -30,6 +30,12 @@ git config --global credential.helper cache
   * git status
   * gcam "commit 내용"
 error: Pulling is not possible because you have unmerged files.
+7. git ignore 파일 추가하기
+```git
+git add .
+git commit -m "add ignore file config"
+```
+[git ignore](http://rapapa.net/?p=85)
 ***
 ### 라인 넣기
 
