@@ -31,12 +31,31 @@ git config --global credential.helper cache
     * gcam "commit 내용"
     - **error**: Pulling is not possible because you have unmerged files.
 7. git ignore 파일 추가하기  
-[git ignore](http://rapapa.net/?p=85)
+[git ignore](http://rapapa.net/?p=85)  
 ```bash
     git add .
     git commit -m "add ignore file config"
 ```
- 
+ 8. Git Branch 만들기
+    1. git branch <branchname>
+    2. git checkout <branchname>
+*  위 두작업을 동시에 하기  
+git checkout -b <branch>  
+    3. $ git add myfile.txt
+    4. $ git commit -m "add 설명을 추가"
+    5. git push origin <branchname>
+        Revisit your forked repository, then there is Compare & pull request Button.
+>back to master
+    6. git merge <branchname>
+
+
+> $ git branch
+> issue1
+> * master
+
+
+
+
 ***
 ### 라인 넣기
 
@@ -49,10 +68,10 @@ git config --global credential.helper cache
 
 > 코드블럭 생성하기
 ```python
-    a = 50
-    b = 100
-    abs(1-b)
-    print("hi")
+>    a = 50
+>    b = 100
+>    abs(1-b)
+>    print("hi")
 ```
 
 ### 깃 **기본 커밋** 사용법
