@@ -39,13 +39,13 @@ git config --global credential.helper cache
  8. Git Branch 만들기
     1. git branch <branchname>
     2. git checkout <branchname>
-*  위 두작업을 동시에 하기  
-git checkout -b <branch>  
+    *  위 두작업을 동시에 하기  
+    git checkout -b <branch>  
     3. $ git add myfile.txt
     4. $ git commit -m "add 설명을 추가"
     5. git push origin <branchname>
         Revisit your forked repository, then there is Compare & pull request Button.
->back to master
+        >back to master
     6. git merge <branchname>
 
 
