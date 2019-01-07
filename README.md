@@ -25,13 +25,13 @@ git config --global credential.helper cache
 4. Git 에서 **Hypertext** 넣기  
     [A representation of Octdrey Catburn](http://octodex.github.com/)
 5. 계정이 바꼈을 때  
-[블로그 Link](http://recoveryman.tistory.com/392)
+[Blog: Link](http://recoveryman.tistory.com/392)
 6. git status가 꼬였을 때  
     * git status
     * gcam "commit 내용"
     - **error**: Pulling is not possible because you have unmerged files.
 7. git ignore 파일 추가하기  
-[git ignore](http://rapapa.net/?p=85)  
+[Blog: git ignore](http://rapapa.net/?p=85)  
 ```bash
     git add .
     git commit -m "add ignore file config"
