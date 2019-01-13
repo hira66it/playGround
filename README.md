@@ -53,12 +53,13 @@ git config --global credential.helper cache
     >번외 : 브랜치 지우기  
     9. git branch -d (branchname)
     
+    git pull origin windows_mode
     #### Error: The file will have its original line endings in your working directory.
-    >그러므로 윈도우 사용자의 경우 이러한 변환이 항상 실행되도록 다음과 같은 명령어를 입력한다. 물론 시스템 전체가 아닌 해당 프로젝트에만 적용하고 싶다면 —global 을 빼주면 된다.
-    >git config --global core.autocrlf true
-    >리눅스나 맥을 사용하고 있는 경우, 조회할 때 LF를 CRLF를 변환하는 것은 원하지 않을 것이다. 따라서 뒤에 input이라는 명령어를 추가해줌으로써 단방향으로만 변환이 이루어지도록 설정한다.
-    >git config --global core.autocrlf true input
-    >혹은 이러한 변환 기능을 원하지 않고, 그냥 에러 메시지 끄고 알아서 작업하고 싶은 경우에는 아래 명령어로 경고메시지 기능인 core.safecrlf를 꺼주면 된다.
+    >그러므로 윈도우 사용자의 경우 이러한 변환이 항상 실행되도록 다음과 같은 명령어를 입력한다. 물론 시스템 전체가 아닌 해당 프로젝트에만 적용하고 싶다면 —global 을 빼주면 된다.  
+    >git config --global core.autocrlf true  
+    >리눅스나 맥을 사용하고 있는 경우, 조회할 때 LF를 CRLF를 변환하는 것은 원하지 않을 것이다. 따라서 뒤에 input이라는 명령어를 추가해줌으로써 단방향으로만 변환이 이루어지도록 설정한다.  
+    >git config --global core.autocrlf true input  
+    >혹은 이러한 변환 기능을 원하지 않고, 그냥 에러 메시지 끄고 알아서 작업하고 싶은 경우에는 아래 명령어로 경고메시지 기능인 core.safecrlf를 꺼주면 된다.  
     >git config --global core.safecrlf false
 
 ### 브랜치 확인 명령어
@@ -81,10 +82,10 @@ git config --global credential.helper cache
 
 > 코드블럭 생성하기
 ```python
->    a = 50
->    b = 100
->    abs(1-b)
->    print("hi")
+    a = 50
+    b = 100
+    abs(1-b)
+    print("hi")
 ```
 
 ### 깃 **기본 커밋** 사용법
