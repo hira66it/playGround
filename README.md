@@ -52,7 +52,9 @@ git config --global credential.helper cache
     8. $ git push
     >번외 : 브랜치 지우기  
     9. git branch -d (branchname)
-    
+9. 캐시 지우기 
+$ git rm --cached -r .
+
     git pull origin windows_mode
     #### Error: The file will have its original line endings in your working directory.
     >그러므로 윈도우 사용자의 경우 이러한 변환이 항상 실행되도록 다음과 같은 명령어를 입력한다. 물론 시스템 전체가 아닌 해당 프로젝트에만 적용하고 싶다면 —global 을 빼주면 된다.  
