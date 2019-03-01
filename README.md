@@ -106,3 +106,11 @@ $ git rm --cached -r .
 >5. git pull [gl]
 >6. git clone [gcl]
 >7. git rm -r —cached .
+
+### 깃 캐쉬삭제
+```console
+git rm -r --chached .
+gaa
+gcam "remove foler"
+git push
+```
